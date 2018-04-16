@@ -32,9 +32,7 @@ def find_the_cheese(array)
   cheese_array = ["cheddar","gouda","camembert"]
   array.each do |snack|
     if cheese_array.include?(snack)
-      return snack
-    else 
-      return "any ol string"
+      puts snack
   end
  end
  end
