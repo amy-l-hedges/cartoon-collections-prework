@@ -37,4 +37,9 @@ def find_the_cheese(array)
   end
  end
  end
+ 
+ our_snacks = ["cheetos", "popcorn", "gouda", "doritos", "cheddar"]
+ 
+ find_the_cheese(our_snacks)
+ 
     
