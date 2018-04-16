@@ -34,7 +34,7 @@ def find_the_cheese(array)
     if cheese_array.include?(snack)
       return snack
     else 
-      return nil
+      return "any ol string"
   end
  end
  end
