@@ -41,6 +41,6 @@ def find_the_cheese(array)
  
  our_snacks = ["cheetos", "popcorn", "gouda", "doritos", "cheddar"]
  
- find_the_cheese(our_snacks)
+ puts find_the_cheese(our_snacks)
  
     
