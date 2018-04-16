@@ -27,3 +27,11 @@ def find_the_cheese(array)
  end
 else return nil
 end
+
+def find_the_cheese(array)
+  cheese_array = ["cheddar","gouda","camembert"]
+  array.each do |snack|
+    if cheese_array.include?(snack)
+      snack
+ end
+    
